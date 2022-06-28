@@ -1,0 +1,11 @@
+{
+    "web":{
+        "host":"myco.local",
+        "http":{
+            "port":"80"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}
