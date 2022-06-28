@@ -14,10 +14,10 @@
     },
     "CFMappings":{
         "/com":{
-            "PHYSICAL":"C:\\sites\\Ortus\\blogs\\coldbox\\externalCode\\mycode\\com"
+            "PHYSICAL":"${MYCODE_ROOT}\\com"
         },
         "/existingMyCo":{
-            "PHYSICAL":"C:\\sites\\Ortus\\blogs\\coldbox\\externalCode\\mycode\\"
+            "PHYSICAL":"${MYCODE_ROOT}"
         }
     },
     "datasources":{
