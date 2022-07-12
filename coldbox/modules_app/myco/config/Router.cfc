@@ -6,7 +6,7 @@ component {
 		route( "/accountsByData", "home.ByData" );
 		route( "/accountsWithHandler", "myCo.accountBalances" );
 		route( "/accountsWithVariables", "myCo.passingVariables" );
-		route( "/whatNext", "myCo.whatNext" );
+		route( "/whatNext", "home.whatNext" );
 	}
 
 }
