@@ -1,0 +1,65 @@
+{
+    "author":"Dan Card",
+    "bugs":"",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{},
+    "description":"",
+    "devDependencies":{
+        "testbox":"*",
+        "commandbox-dotenv":"*",
+        "commandbox-cfconfig":"*",
+        "commandbox-cfformat":"*",
+        "commandbox-hostupdater":"*"
+    },
+    "documentation":"",
+    "homepage":"",
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/"
+    ],
+    "installPaths":{},
+    "instructions":"",
+    "keywords":[],
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "location":"ForgeboxStorage",
+    "name":"Coldbox and Existing Code",
+    "private":false,
+    "projectURL":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "scripts":{},
+    "shortDescription":"Some examples on ways of using Coldbox with an existing codebase",
+    "slug":"coldbox-existing-code-blog",
+    "createPackageDirectory":false,
+    "testbox":{
+        "bundles":"",
+        "directory":"tests.specs",
+        "excludes":"",
+        "labels":"",
+        "options":{},
+        "recurse":true,
+        "reporter":"",
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "testBundles":"",
+        "testSpecs":"",
+        "testSuites":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    },
+    "type":"projects",
+    "version":"0.0.0"
+}
