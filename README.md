@@ -6,7 +6,8 @@ adapting the entire site over to Coldbox.
 ## Installation
 1. install coldbox-existing-code-blog
 2. Set up the mycode site by simply typing `server start` from that folder. 
-3. Set up the Coldbox site by simply typing `install` then `server start` from that folder. 
+3. Set up the Coldbox site by simply typing `install` then `server start` from that folder.
+4. Go to http://myco.local/myco to get started. 
 
 
 
