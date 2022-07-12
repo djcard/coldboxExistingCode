@@ -107,7 +107,7 @@ component {
 		 * Layout Settings
 		 * --------------------------------------------------------------------------
 		 */
-		layoutSettings = { defaultLayout : "", defaultView : "" };
+		layoutSettings = { defaultLayout : "mycomain", defaultView : "" };
 
 		/**
 		 * --------------------------------------------------------------------------

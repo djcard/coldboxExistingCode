@@ -27,6 +27,9 @@ component {
 			};
 		} );
 
+		route("/mycotest2","mycotest2");
+		route("/mycoHandler","myco.firstHandler");
+
 		// Conventions based routing
 		route( ":handler/:action?" ).end();
 	}
