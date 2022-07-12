@@ -20,7 +20,7 @@ code base to a Coldbox site. </p>
 		<li>Example 1: <a href="/myco/accountsByInclude" target="_blank"> Using Include </a></li>
 		<li>Example 2: <a href="/myco/accountsByData" target="_blank"> Accessing the data inplace with a new look </a></li>
 		<li>Example 3: <a href="/myco/accountsWithHandler" target="_blank"> Using a handler to do some pre-processing before the view is shown. We are  </a></li>
-		<li>Example 4: <a href="/myco/passingvariables" target="_blank"> Passing variables in from the view  </a></li>
+		<li>Example 4: <a href="/myco/accountsWithVariables" target="_blank"> Passing variables in from the view  </a></li>
 		<li><a href="/myco/whatNext" target="_blank"> What Next?? </a></li>
 	</ul>
 </p>
