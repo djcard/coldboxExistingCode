@@ -16,4 +16,10 @@ component {
 		event.setView( "home/withHandler" );
 	}
 
+	public function passingVariables( event, rc, prc ){
+		event.setPrivateValue( "people", createObject( "com.mycode.people.Accounts" ).allClients() );
+		event.setPrivateValue( "balances", createObject( "com.mycode.accounting.accouting" ).allAccounts() );
+		event.setView( "home/passingVariables" );
+	}
+
 }

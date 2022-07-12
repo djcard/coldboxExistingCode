@@ -5,6 +5,8 @@ component {
 		route( "/accountsByInclude", "home.byInclude" );
 		route( "/accountsByData", "home.ByData" );
 		route( "/accountsWithHandler", "myCo.accountBalances" );
+		route( "/accountsWithVariables", "myCo.passingVariables" );
+		route( "/whatNext", "myCo.whatNext" );
 	}
 
 }
