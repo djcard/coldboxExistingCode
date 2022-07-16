@@ -15,7 +15,6 @@
     "documentation":"",
     "homepage":"",
     "ignore":[
-        "**/.*",
         "/test/",
         "/tests/"
     ],
@@ -61,5 +60,5 @@
         "watchPaths":"**.cfc"
     },
     "type":"projects",
-    "version":"0.0.2"
+    "version":"0.0.4"
 }

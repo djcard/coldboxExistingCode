@@ -1,5 +1,5 @@
 <h1>Welcome to my MyCo! module page!</h1>
-<p>This site is to show three ways to access current code from a coldbox site. Helpful when you're transtition from an existing
+<p>This site is to show three ways to access current code from a coldbox site. Helpful when you're transtitioning from an existing
 code base to a Coldbox site. </p>
 <p>There are 2 key actions here to set up the sites
 	<ol>
