@@ -1,6 +1,7 @@
 component {
 
 	function firsthandler(){
-		event.setView("main/steve");
+		event.setView( "main/steve" );
 	}
+
 }
