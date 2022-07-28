@@ -7,6 +7,8 @@ component {
 		route( "/accountsWithHandler", "myCo.accountBalances" );
 		route( "/accountsWithVariables", "myCo.passingVariables" );
 		route( "/whatNext", "home.whatNext" );
+		route( "/wirebox1", "myCo.wirebox1" );
+		route( "/wirebox2", "myCo.wirebox2" );
 	}
 
 }

@@ -33,6 +33,8 @@ component extends="coldbox.system.ioc.config.Binder" {
 		};
 
 		// Map Bindings below
+		map("people").to("com.mycode.people.Accounts");
+		map("accounting").to("com.mycode.accounting.accounting");
 	}
 
 }

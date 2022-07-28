@@ -1,14 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>This is my existing Site</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
-<body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 <cfset people = createObject("com.mycode.people.Accounts").allClients() />
-<cfset balances = createObject("com.mycode.accounting.accouting").allAccounts() />
+<cfset balances = createObject("com.mycode.accounting.accounting").allAccounts() />
 
 <h1>My Co Account Balances By Accessing COM from the Coldbox site</h1>
 	<p> Here we're using createObject and pointing to same cfcs that power the view in the existing code. This works because we've mapped "/com" to the "/com" in the existing code.   </p>
@@ -25,7 +18,7 @@
 	</tr>
 	</thead>
 <tbody>
-<cfset people.map(function(item, index){
+<cfset people.each(function(item, index){
 	writeOutput("
         <tr>
           <td>#index#</td>
@@ -38,6 +31,3 @@
 </table>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
-</html>
-

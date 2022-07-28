@@ -8,7 +8,7 @@
 </head>
 <body>
 <cfset people = createObject("com.mycode.people.Accounts").allClients() />
-<cfset balances = createObject("com.mycode.accounting.accouting").allAccounts() />
+<cfset balances = createObject("com.mycode.accounting.accounting").allAccounts() />
 
 <h1>My Co Account Balances</h1>
 <table class="table">

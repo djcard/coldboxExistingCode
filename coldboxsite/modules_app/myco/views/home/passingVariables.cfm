@@ -28,7 +28,7 @@
 				writeOutput('
 					<tr style="#emphasis#">
 					  <td>#index#</td>
-					  <td><a href="/myco/accountsWithVariables?activeReview=#item.id#">#item.id#</a></td>
+					  <td><a href="#event.buildlink('myco.accountsWithVariables', 'activeReview=#item.id#')#">#item.id#</a></td>
 					  <td>#item.first#</td>
 					  <td>#item.last#</td>
 					  <td>#prc.balances.keyExists(item.id) ? prc.balances[item.id] : ""#</td>
