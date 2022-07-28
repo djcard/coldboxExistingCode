@@ -33,7 +33,7 @@ code base to a Coldbox site. </p>
 		<li>Example 3: <a href="/myco/accountsWithHandler" target="_blank"> Using a handler to do some pre-processing before the view is shown. We are  </a></li>
 		<li>Example 4: <a href="/myco/accountsWithVariables" target="_blank"> Passing variables in from the view  </a></li>
 		<li>Example 5: <a href="/myco/wirebox1" target="_blank"> Mapping our external code in WireBox</a></li>
-		<li>Example 6: <a href="/myco/wirebox2" target="_blank"> Moving our external code into out ColdBox Module.   </a></li>
+		<li>Example 6: <a href="/myco/wirebox2" target="_blank"> Moving our external code into our ColdBox Module.   </a></li>
 	</ul>
 
 </p>
